@@ -31,4 +31,5 @@ int main() {
   assert(reverse(a) == 321);
   assert(reverse(b) == -321);
   assert(reverse(c) == 21);
+  return 0;
 }

@@ -30,5 +30,6 @@ Index |	Title	|Acceptance	|Difficulty
 409|longest_palindrome |[Solved](https://github.com/Art2Cat/leetcode/blob/master/409.longest_palindrome/longestPalindrome.c)|Easy
 459|Repeated Substring Pattern|[Solved](https://github.com/Art2Cat/leetcode/blob/master/459.%20Repeated%20Substring%20Pattern/solution.c)|Easy
 507|Perfect Number |[Solved](https://github.com/Art2Cat/leetcode/blob/master/507.%20Perfect%20Number/solution.c)|Easy
+665|Non-decreasing Array |[Solved](https://github.com/Art2Cat/leetcode/blob/master/665.%20Non-decreasing%20Array/solution.c)|Easy
 724|Find Pivot Index|[Solved](https://github.com/Art2Cat/leetcode/blob/master/724.%20Find%20Pivot%20Index/solution.c)|Easy
 762|Prime Number of Set Bits in Binary Representation|[Solved](https://github.com/Art2Cat/leetcode/blob/master/762.%20Prime%20Number%20of%20Set%20Bits%20in%20Binary%20Representation/solution.c)|Easy

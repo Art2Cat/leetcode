@@ -28,4 +28,5 @@ int main() {
   if (checkPerfectNumber(n1)) {
     printf("%d is perfect number.\n", n1);
   }
+  return 0;
 }

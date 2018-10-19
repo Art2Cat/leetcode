@@ -37,4 +37,5 @@ int main() {
   sortColors(arr, 6);
 
   print_array(arr, 6);
+  return 0;
 }
