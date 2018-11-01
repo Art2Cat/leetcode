@@ -5,7 +5,6 @@
 #define SIZE 50
 
 char *longestPalindrome(char *s) {
-
   int begin, middle, end, length = 0;
   int prev_begin, prev_end, prev_max = 0;
   length = strlen(s);
