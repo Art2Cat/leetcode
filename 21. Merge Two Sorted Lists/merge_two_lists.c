@@ -17,46 +17,24 @@ void print(const struct ListNode *l) {
 }
 
 struct ListNode *mergeTwoLists(struct ListNode *l1, struct ListNode *l2) {
-  if (l1 == NULL && l2 == NULL) {
-    return NULL;
-  } else if (l1 == NULL) {
-    return l2;
-  } else if (l2 == NULL) {
-    return l1;
-  }
-  struct ListNode *tmp = l1;
-  int left_last = 0;
-  while (tmp != NULL) {
-    if (tmp->next == NULL) {
-      left_last = tmp->val;
-      tmp->next = l2;
-      break;
-    }
-    tmp = tmp->next;
-  }
-  // after merge
-  print(l1);
+  if (l1 == NULL) return l2;
+  if (l2 == NULL) return l1;
 
-  // start sort;
-  tmp = l1;
-  struct ListNode *prev;
-  while (tmp != NULL) {
-    if (tmp->next != NULL && tmp->val > tmp->next->val) {
-      if (prev != NULL) {
-        prev->next = tmp->next;
-      }
-      struct ListNode *cur = tmp->next;
-      struct ListNode *tmp1 = cur->next;
-      tmp->next = tmp1;
-      cur->next = tmp;
-      prev = cur;
-      continue;
+  struct ListNode result;
+  struct ListNode *curr = &result;
+  struct ListNode *l_tmp = l1;
+  struct ListNode *r_tmp = l2;
+  while (l_tmp && r_tmp) {
+    curr->next = (l_tmp->val < r_tmp->val) ? l_tmp : r_tmp;
+    if (l_tmp->val < r_tmp->val) {
+      l_tmp = l_tmp->next;
+    } else {
+      r_tmp = r_tmp->next;
     }
-    prev = tmp;
-    tmp = tmp->next;
+    curr = curr->next;
   }
-  print(l1);
-  return l1;
+  curr->next = l_tmp ? l_tmp : r_tmp;
+  return result.next;
 }
 
 int main() {
@@ -76,7 +54,7 @@ int main() {
   l2->next->next->val = 4;
   l2->next->next->next = NULL;
 
-  mergeTwoLists(l1, l2);
-
+  struct ListNode *result = mergeTwoLists(l1, l2);
+  print(result);
   return 0;
 }
