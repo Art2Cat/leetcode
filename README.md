@@ -22,6 +22,7 @@ Index |	Title	|Acceptance	|Difficulty
 75|Sort Colors|[Solved](https://github.com/Art2Cat/leetcode/blob/master/75.%20Sort%20Colors/solution.c)|Medium
 83|Remove Duplicates from Sorted List |[Solved](https://github.com/Art2Cat/leetcode/blob/master/83.%20Remove%20Duplicates%20from%20Sorted%20List/solution.c)|Easy
 100|Same Tree |[Solved](https://github.com/Art2Cat/leetcode/blob/master/100.%20Same%20Tree/solution.c)|Easy
+121|Best Time to Buy and Sell |[Solved](https://github.com/Art2Cat/leetcode/blob/master/121.%20Best%20Time%20to%20Buy%20and%20Sell/solution.c)|Easy
 136|Single Number 	|[Solved](https://github.com/Art2Cat/leetcode/blob/master/136.%20Single%20Number/solution.c)|Easy
 155|Min Stack|[Solved](https://github.com/Art2Cat/leetcode/blob/master/155.%20Min%20Stack/solution.c)|Easy
 202.|happy_number |[Solved](https://github.com/Art2Cat/leetcode/blob/master/202.happy_number/ishappy.c)|Easy
