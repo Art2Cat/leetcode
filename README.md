@@ -26,6 +26,7 @@ Index |	Title	|Acceptance	|Difficulty
 122|Best Time to Buy and Sell II |[Solved](https://github.com/Art2Cat/leetcode/blob/master/121.%20Best%20Time%20to%20Buy%20and%20Sell%20II/solution.c)|Easy
 123|Best Time to Buy and Sell III |[Attempted](https://github.com/Art2Cat/leetcode/blob/master/121.%20Best%20Time%20to%20Buy%20and%20Sell%20III/solution.c)|Hard
 136|Single Number 	|[Solved](https://github.com/Art2Cat/leetcode/blob/master/136.%20Single%20Number/solution.c)|Easy
+137|Single Number II	|[Solved](https://github.com/Art2Cat/leetcode/blob/master/137.%20Single%20Number%20II/solution.c)|Middle
 155|Min Stack|[Solved](https://github.com/Art2Cat/leetcode/blob/master/155.%20Min%20Stack/solution.c)|Easy
 202.|happy_number |[Solved](https://github.com/Art2Cat/leetcode/blob/master/202.happy_number/ishappy.c)|Easy
 242|Valid Anagram |[Solved](https://github.com/Art2Cat/leetcode/blob/master/242.%20Valid%20Anagram/solution.c)|Easy
