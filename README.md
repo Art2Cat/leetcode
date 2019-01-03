@@ -21,6 +21,7 @@ Index |	Title	|Acceptance	|Difficulty
 66|Plus One|[Solved](https://github.com/Art2Cat/leetcode/blob/master/66.%20Plus%20One/solution.c)|Easy
 75|Sort Colors|[Solved](https://github.com/Art2Cat/leetcode/blob/master/75.%20Sort%20Colors/solution.c)|Medium
 83|Remove Duplicates from Sorted List |[Solved](https://github.com/Art2Cat/leetcode/blob/master/83.%20Remove%20Duplicates%20from%20Sorted%20List/solution.c)|Easy
+88|Merge Sorted Array |[Solved](https://github.com/Art2Cat/leetcode/blob/master/88.%20Merge%20Sorted%20Array/solution.rs)|Easy
 100|Same Tree |[Solved](https://github.com/Art2Cat/leetcode/blob/master/100.%20Same%20Tree/solution.c)|Easy
 121|Best Time to Buy and Sell |[Solved](https://github.com/Art2Cat/leetcode/blob/master/121.%20Best%20Time%20to%20Buy%20and%20Sell/solution.c)|Easy
 122|Best Time to Buy and Sell II |[Solved](https://github.com/Art2Cat/leetcode/blob/master/121.%20Best%20Time%20to%20Buy%20and%20Sell%20II/solution.c)|Easy
